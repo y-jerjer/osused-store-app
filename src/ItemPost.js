@@ -10,11 +10,11 @@ class ItemInfo extends React.Component {
         <form className="item-register-form">
           <h3>Selling Register</h3>
 
-          <label htmlFor="Item Name">
+          <label htmlFor="Enter Item Name">
             <b>Item Name</b>
           </label>
           <input type="text" placeholder="Item Name" />
-          <label htmlFor="Catagory">
+          <label htmlFor="Enter Catagory">
             <b>Catagory</b>
           </label>
           <input type="hidden" placeholder="Catagory" />
