@@ -1,9 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import './css/ItemPost.css'
-import logo from './logo.svg'
+import './ItemPost.css'
 
-class ItemInfo extends React.Component {
+export default class ItemInfo extends React.Component {
   render() {
     return (
       <div className="container">
@@ -43,5 +41,3 @@ class ItemInfo extends React.Component {
     )
   }
 }
-
-export default ItemInfo
