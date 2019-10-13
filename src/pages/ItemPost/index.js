@@ -2,7 +2,7 @@ import React from 'react'
 import './ItemPost.css'
 import { InputLabel, SelectionLabel } from '../../components/Label/index'
 
-class ItemInfo extends React.Component {
+export class ItemInfo extends React.Component {
   constructor(props) {
     super(props)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -71,5 +71,3 @@ class ItemInfo extends React.Component {
     )
   }
 }
-
-export default ItemInfo

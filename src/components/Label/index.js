@@ -1,7 +1,7 @@
 import React from 'react'
 import Select from 'react-select'
 
-class SelectionLabel extends React.Component {
+export class SelectionLabel extends React.Component {
   state = {
     selectedOption: null,
   }
@@ -26,7 +26,7 @@ class SelectionLabel extends React.Component {
   }
 }
 
-function InputLabel(props) {
+export function InputLabel(props) {
   return (
     <label>
       <b>{props.text}</b>
@@ -39,5 +39,3 @@ function InputLabel(props) {
     </label>
   )
 }
-
-export { InputLabel, SelectionLabel }
