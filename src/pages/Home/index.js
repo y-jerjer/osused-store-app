@@ -1,9 +1,9 @@
 import React from 'react'
-import ItemPost from '../ItemPost'
-import App from '../App'
+import { ItemPost } from '../ItemPost'
+import { App } from '../App'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-export default function Home() {
+export function Home() {
   return (
     <Router>
       <div>

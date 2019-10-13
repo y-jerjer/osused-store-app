@@ -2,7 +2,7 @@ import React from 'react'
 import './ItemPost.css'
 import { InputLabel, SelectionLabel } from '../../components/Label/index'
 
-export default class ItemPost extends React.Component {
+export class ItemPost extends React.Component {
   constructor(props) {
     super(props)
     this.handleSubmit = this.handleSubmit.bind(this)
