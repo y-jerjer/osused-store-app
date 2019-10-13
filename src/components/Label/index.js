@@ -6,9 +6,7 @@ class SelectionLabel extends React.Component {
     selectedOption: null,
   }
   handleChange = selectedOption => {
-    this.setState({ selectedOption }, () =>
-      console.log(`Option selected:`, this.state.selectedOption)
-    )
+    this.setState({ selectedOption })
   }
 
   render() {
