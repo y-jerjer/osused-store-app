@@ -1,0 +1,28 @@
+.item-card-list {
+
+}
+.item-card {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.items-labels h1{
+    text-align: center;
+}
+
+.items-labels h2{
+    text-align: center;
+}
+
+.item-elements {
+    background-color: bisque;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.descriptor Button {
+    background-color: black;
+    color: white;
+}
